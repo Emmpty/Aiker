@@ -1,0 +1,342 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/tabBar/gallery",
+      "style": {
+        "navigationBarTitleText": "影展",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#141416",
+        "navigationBarBackgroundColor": "#141416",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/tabBar/index",
+      "style": {
+        "navigationBarTitleText": "创作",
+        "navigationBarBackgroundColor": "#141416",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/tabBar/mine",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": true,
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#141416",
+        "usingComponents": {
+          // #ifdef MP-WEIXIN
+          "cell": "plugin://materialPlugin/cell"
+          //#endif
+        }
+      }
+    },
+    {
+      "path": "pages/videoSwiper/videoSwiper",
+      "style": {
+        "navigationBarTitleText": "详情",
+        "enablePullDownRefresh": false,
+        "backgroundColor": "#141416",
+        "navigationBarBackgroundColor": "#141416",
+        "navigationBarTextStyle": "white",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "plogin",
+      "pages": [
+        {
+          "path": "login",
+          "style": {
+            "navigationBarTitleText": "登录",
+            "navigationBarBackgroundColor": "#141416",
+            "navigationBarTextStyle": "white",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "logintype",
+          "style": {
+            "navigationBarTitleText": "登录",
+            "navigationBarBackgroundColor": "#141416",
+            "navigationBarTextStyle": "white",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "forget",
+          "style": {
+            "navigationBarTitleText": "忘记密码",
+            "navigationBarBackgroundColor": "#141416",
+            "navigationBarTextStyle": "white",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "privacy_agree",
+          "style": {
+            "navigationBarTitleText": "隐私协议",
+            "navigationBarBackgroundColor": "#141416",
+            "navigationBarTextStyle": "white",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "user_agree",
+          "style": {
+            "navigationBarTitleText": "用户协议",
+            "navigationBarBackgroundColor": "#141416",
+            "navigationBarTextStyle": "white",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "register",
+          "style": {
+            "navigationBarTitleText": "注册",
+            "navigationBarTextStyle": "white",
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "pmine",
+      "pages": [
+        {
+          "path": "personal",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "updatephone",
+          "style": {
+            "navigationBarTitleText": "更换手机号",
+            "navigationBarTextStyle": "white",
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "recharge/recharge",
+          "style": {
+            "navigationBarTitleText": "充值中心",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "recharge/detail",
+          "style": {
+            "navigationBarTitleText": "明细",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "inviteFriend/inviteFriend",
+          "style": {
+            "navigationBarTitleText": "邀请好友",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "freeMana/freeMana",
+          "style": {
+            "navigationBarTitleText": "免费点数",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "cash/cash",
+          "style": {
+            "navigationBarTitleText": "提现",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "cash/cashResult",
+          "style": {
+            "navigationBarTitleText": "提现",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "cash/cashHistory",
+          "style": {
+            "navigationBarTitleText": "记录明细",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "webviewManage/webviewManage",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "phome",
+      "pages": [
+        {
+          "path": "cropping",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarTextStyle": "white",
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "AIVideo/AIVideo",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "AIDance/AIDance",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "AILandscape/AILandscape",
+          "style": {
+            "navigationBarTitleText": "山水动图",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "AICopywriting/ImageToCopywriting",
+          "style": {
+            "navigationBarTitleText": "图生文案",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "AICopywriting/textDetails",
+          "style": {
+            "navigationBarTitleText": "详情",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "AIHD/AIHD",
+          "style": {
+            "navigationBarTitleText": "一键高清",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "clearRect/clearRect",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "AISubtitles/AISubtitles",
+          "style": {
+            "navigationBarTitleText": "图片说话",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "AISubtitles/dubbingPage",
+          "style": {
+            "navigationBarTitleText": "配音选择",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+        	"path" : "VideoCartoon/VideoCartoon",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "视频动漫",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#141416",
+            "navigationStyle": "custom"
+        	}
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "埃客",
+    "backgroundColor": "#141416",
+    "navigationBarBackgroundColor": "#141416"
+    // "usingComponents": {
+    //     "coral-adv": "plugin://coral-adv/adv"
+    // }
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#8F8F94",
+    "selectedColor": "#07B894",
+    "backgroundColor": "#141416",
+    "navigationBarBackgroundColor": "#141416",
+    "list": [
+      {
+        "text": "影展",
+        "pagePath": "pages/tabBar/gallery",
+        "selectedIconPath": "static/img/tabbar/information_tncur.png",
+        "iconPath": "static/img/tabbar/information_tncur1.png"
+      },
+      {
+        "text": "创作",
+        "pagePath": "pages/tabBar/index",
+        "selectedIconPath": "static/img/tabbar/home_tncur.png",
+        "iconPath": "static/img/tabbar/home_tncur1.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/tabBar/mine",
+        "selectedIconPath": "static/img/tabbar/mine_tncur.png",
+        "iconPath": "static/img/tabbar/mine_tncur1.png"
+      }
+    ]
+  }
+}

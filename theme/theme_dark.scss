@@ -1,0 +1,23 @@
+@mixin dark-theme {
+  --primary-color: #00EBD3;
+
+  // 修改背景色时记得去修改 zhouWei-navBar组件中getNavBgColor() 的默认背景色
+  /* 背景色 */
+  --bg-color: #141416; //主题色
+  --bg-color-2: #262628; // 框背景色(输入框\背景框)
+  --bg-color-3: #3C3C3C; // 框内凸现背景色
+  --bg-color-nav: #1A1A1A;
+  --bg-color-page: #141416;
+  --bg-color-model-content: #323234;
+
+  /* 字体颜色 */
+  --text-color: #FFFFFF;
+  --text-color-2: #121212;
+
+  /* 边框颜色 */
+  --border-color: #141416;
+  --border-color-dividing: #2B2B2D;
+  --border-color-nav: rgba(244, 244, 244, 0.3);
+
+  color: var(--text-color);
+}
